@@ -277,5 +277,5 @@ http://computing.help.inf.ed.ac.uk/vdice
 website [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html)
 * To activate the `py3iaml` environment, note that you don't type `source activate py3iaml`
 but instead use `conda activate py3iaml`
-* You can ignore section 3b (though you can google windows equivalents of all
+* You can ignore "What is an environment?" (though you can google windows equivalents of all
   the Unix commands given)
