@@ -1,4 +1,4 @@
-# Introductory Applied Machine Learning (INFR10069/11152/11182)
+# Introductory Applied Machine Learning (INFR10069 & INFR11182)
 
 The following instructions tell you how to setup Python and how to configure it for the IAML labs. The main steps are (i) installing Python (using conda), (ii) configuring the correct libraries required for IAML, and (iii) downloading the labs. 
 
