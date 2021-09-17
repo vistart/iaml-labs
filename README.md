@@ -1,3 +1,5 @@
+## Note: These are the labs from last year (i.e. 20/21). Students taking INFR10069 or INFR11182 in 21/22 should wait until these are updated before attempting them. This will happen before 20/09/2021. 
+
 # Introductory Applied Machine Learning (INFR10069 & INFR11182)
 
 The following instructions tell you how to setup Python and how to configure it for the IAML labs. The main steps are (i) installing Python (using conda), (ii) configuring the correct libraries required for IAML, and (iii) downloading the labs. 
