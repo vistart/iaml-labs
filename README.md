@@ -5,7 +5,7 @@
 ## Recommended: Use [Notable](https://noteable.edina.ac.uk/login)
 
 #### Step 1: 
-Go to [Notable](https://noteable.edina.ac.uk/login). It might ask your UUN and Password, if you are logged into Euclid. After login, the following screen will be available with few options to start the server. 
+Go to [Notable](https://noteable.edina.ac.uk/login). It might ask your UUN and Password, if you are not logged into Euclid. After login, the following screen will be available with few options to start the server. 
 <br/>
 <img src="assets\step_0.png" width="500" height="200">
 
