@@ -2,6 +2,57 @@
 
 # Introductory Applied Machine Learning (INFR10069 & INFR11182)
 
+## Recommended: Use [Notable](https://noteable.edina.ac.uk/login)
+
+#### Step 1: 
+Go to [Notable](https://noteable.edina.ac.uk/login). It might ask your UUN and Password, if you are logged into Euclid. After login, the following screen will be available with few options to start the server. 
+<br/>
+<img src="assets\step_0.png" width="500" height="200">
+
+#### Step 2: 
+Choose *Standard Notebook (Python3)* and click *Start*.
+<br/>
+<img src="assets\step_1.png" width="500" height="200">
+
+#### Step 2: 
+The jupyter notebook will open in the same window, as shown below. On the Notable home folder, click on the <span style="color:red">*+GitRepo*</span> button.
+<br/>
+<img src="assets\step_2.png" width="500" height="200">
+
+#### Step 3: 
+In the Notebook server, a small pop-up window appears, as shown below:
+<br/>
+<img src="assets\step_3.png" width="500" height="200">
+
+<!-- and enter the Github link for the [iaml-labs]() repository (keep branch as `master`) -->
+#### Step 4: 
+Go to IAML github repo: [iaml-labs](https://github.com/uoe-iaml/iaml-labs) and copy the *HTTPS* link by clicking on the green colored <span style="color:green">*Code*</span> button.
+<br/>
+<img src="assets\step_4.png" width="500" height="200">
+
+#### Step 5: 
+Enter the copied Github link in the pop-up window on the Notebook server (keep branch as `master`). Now click *Clone* to copy the labs into Notable.
+<br/>
+<img src="assets\step_5.png" width="500" height="200">
+
+#### Step 6: 
+Notable will take few seconds to copy and load the IAML Labs.
+<br/>
+<img src="assets\step_6.png" width="500" height="200">
+
+#### Step 7: 
+Once the Notable is successfull, it will show the repository contents.
+<br/>
+<img src="assets\step_7.png" width="500" height="200">
+
+#### Step 8: 
+Go to `Labs` to find the available jupyter notebook and continue working on them.
+<br/>
+<img src="assets\step_8.png" width="500" height="200">
+
+
+## Alternative: Use DICE
+
 The following instructions tell you how to setup Python and how to configure it for the IAML labs. The main steps are (i) installing Python (using conda), (ii) configuring the correct libraries required for IAML, and (iii) downloading the labs. 
 
 These instructions are primarily written for DICE. 
@@ -16,7 +67,7 @@ are on standby in the labs to help if required.
 
 
 
-## 0. Using DICE or your own machine
+### 0. Using DICE or your own machine
 For this course, you can either use (i) **a DICE computer** via remote access or (ii) **your own personal computer** running Linux, Windows, or MacOS. We have verified that these instructions work under DICE and while they should work on your machine too, we can not guarantee this for everyone. If you are using your own computer, you can skip to step 2. 
 
 If you choose to work on DICE, there are two main ways of using it remotely -- either via RDP (remote desktop) or via SSH. The first one is recommended, as it is the easiest. If you are running Linux, run the following command from your own computer:
@@ -33,7 +84,7 @@ Replace `s1234567` with your username. This will open a remote DICE session and 
 If you're on a DICE machine, in the top left click Applications -> Utilities -> Terminal. 
 Alternatively, you may find the terminal under Applications -> System Tools -> MATE Terminal, depending on the system used.  
 
-## 1. Check your available space
+### 1. Check your available space
 Note that your space on DICE is allocated dynamically. If you are
 having problems it may be because you were using new space faster than it could
 be allocated to you!
@@ -47,7 +98,7 @@ ASAP to get this space**.
     1. If you don't have enough space, follow the instructions on [this page](
         http://computing.help.inf.ed.ac.uk/afs-quotas).
 
-## 2. If you don't have it - install conda
+### 2. If you don't have it - install conda
 1. **Check you don't already have conda installed!**
     1. `which conda`
     1. **if you already have it installed, skip ahead to Create an Environment**
@@ -67,14 +118,14 @@ ASAP to get this space**.
 
 If you are installing conda on your own machine, you will find some instructions for Windows users at the end of this README.
 
-## 3. Create an environment for IAML
+### 3. Create an environment for IAML
 1. Update conda: `conda update conda`
 1. Create the environment for the course. Call it py3iaml and install python 3 (*hence the name*):
 ```conda create -n py3iaml python=3.7```
 
 You can find more information in the Miscellaneous section below for how to work with conda environments. Briefly, `source activate py3iaml` will activate the new environment and `conda deactivate` will exit it. 
 
-## 4. Get the course lab material
+### 4. Get the course lab material
 
 Before installing required modules, we need to obtain the repository since it includes the specifications of the packages to use (as well as all lab material). Within your terminal:
 
@@ -93,7 +144,7 @@ Before installing required modules, we need to obtain the repository since it in
 #### *IMPORTANT*
 Supporting and teaching git is not in scope for this course so please only use it if you are happy to google your own solutions! That being said, git is a better alternative if you are familiar with it. We reccommend that you work with your own branch/fork as the git repository is read-only.
 
-## 5. Install all the packages for IAML
+### 5. Install all the packages for IAML
 1. Activate the environment: ```source activate py3iaml```
 1. {May take 5 minutes} Install all required packages. We have done a *iaml.req* file for you to use: ```conda install --file iaml.req```. You can download this as part of the repository (see below).
    **It is important to use this requirements file as this contains the specific version numbers so that the course is consistent regardless of when you start**
@@ -102,7 +153,7 @@ Supporting and teaching git is not in scope for this course so please only use i
 #### *IMPORTANT*
 Before starting any IAML work in a new terminal **you must always activate the iaml conda environment** using `source activate py3iaml`. If the environment is not activated, you will be using your base python with its own set of packages. If you are ever in any doubt of which python version is being used, execute `which python` and make sure that it points to where your environments are installed.
 
-## 6. Get started!!!
+### 6. Get started!!!
 Once you have downloaded the material, you are now ready to start working with
 Jupyter notebooks. First you need to activate the software environment and then
 start a Jupyter Notebook session from within the folder where the material is
@@ -118,13 +169,13 @@ stored. *You will have to follow this procedure for all labs and assignments.*
 
 Now you are ready to start working on the labs!
 
-## Further Reading
+### Further Reading
 
 - Conda getting started - 30 minute practical well worth going through [https://conda.io/docs/user-guide/getting-started.html](https://conda.io/docs/user-guide/getting-started.html)
 - System Environment variables - [https://en.wikipedia.org/wiki/Environment_variable](https://en.wikipedia.org/wiki/Environment_variable)
 - Linux execution order - [https://www.cyberciti.biz/tips/how-linux-or-unix-understand-which-program-to-run-part-i.html](https://www.cyberciti.biz/tips/how-linux-or-unix-understand-which-program-to-run-part-i.html)
 
-## Troubleshooting
+### Troubleshooting
 
 #### I ran out of space when installing packages
 
@@ -217,7 +268,7 @@ delete the other.
 - https://conda.io/docs/user-guide/install/linux.html#uninstalling-anaconda-or-miniconda
 
 
-## Miscellaneous
+### Miscellaneous
 
 ### What is an environment?
 An environment is a collection of packages of specific versions. You can have
