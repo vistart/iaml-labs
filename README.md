@@ -1,4 +1,4 @@
-## Note: These are the labs from last year (i.e. 20/21). Students taking INFR10069 or INFR11182 in 21/22 should wait until these are updated before attempting them. This will happen before 20/09/2021. 
+<!-- ## Note: These are the labs from last year (i.e. 20/21). Students taking INFR10069 or INFR11182 in 21/22 should wait until these are updated before attempting them. This will happen before 20/09/2021.  -->
 
 # Introductory Applied Machine Learning (INFR10069 & INFR11182)
 
