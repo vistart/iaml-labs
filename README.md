@@ -1,8 +1,7 @@
-<!-- ## Note: These are the labs from last year (i.e. 20/21). Students taking INFR10069 or INFR11182 in 21/22 should wait until these are updated before attempting them. This will happen before 20/09/2021.  -->
-
 # Introductory Applied Machine Learning (INFR10069 & INFR11182)
+This repository contains the Python files for the IAML labs. It also contains instructions for how to get started. We recommend that you use Notable to do the labs. 
 
-## Recommended: Use [Notable](https://noteable.edina.ac.uk/login)
+## Gettting Started: Using [Notable](https://noteable.edina.ac.uk/login)
 
 #### Step 1: 
 Go to [Notable](https://noteable.edina.ac.uk/login). It might ask your UUN and Password, if you are not logged into Euclid. After login, the following screen will be available with few options to start the server. 
@@ -51,9 +50,9 @@ Go to `Labs` to find the available jupyter notebook and continue working on them
 <img src="assets\step_8.png" width="500" height="200">
 
 
-## Alternative: Use DICE
+## Alternatives to Notable
 
-The following instructions tell you how to setup Python and how to configure it for the IAML labs. The main steps are (i) installing Python (using conda), (ii) configuring the correct libraries required for IAML, and (iii) downloading the labs. 
+The following instructions tell you how to setup Python and how to configure it for the IAML labs. If you successfully got Notable working you can skip this step. In this section we provide alternative ways in which you can run the labs - either on DICE or your own computer. The main steps are (i) installing Python (using conda), (ii) configuring the correct libraries required for IAML, and (iii) downloading the labs. 
 
 These instructions are primarily written for DICE. 
 DICE refers to desktops and servers that run Unix and are managed by computing staff in the School of Informatics. It includes computers that are both physically in the labs and ones that you can access remotely. 
@@ -153,7 +152,7 @@ Supporting and teaching git is not in scope for this course so please only use i
 #### *IMPORTANT*
 Before starting any IAML work in a new terminal **you must always activate the iaml conda environment** using `source activate py3iaml`. If the environment is not activated, you will be using your base python with its own set of packages. If you are ever in any doubt of which python version is being used, execute `which python` and make sure that it points to where your environments are installed.
 
-### 6. Get started!!!
+### 6. Starting a Notebook
 Once you have downloaded the material, you are now ready to start working with
 Jupyter notebooks. First you need to activate the software environment and then
 start a Jupyter Notebook session from within the folder where the material is
