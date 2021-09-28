@@ -147,6 +147,7 @@ Supporting and teaching git is not in scope for this course so please only use i
 1. Activate the environment: ```source activate py3iaml```
 1. {May take 5 minutes} Install all required packages. We have done a *iaml.req* file for you to use: ```conda install --file iaml.req```. You can download this as part of the repository (see below).
    **It is important to use this requirements file as this contains the specific version numbers so that the course is consistent regardless of when you start**
+1. If the packages are listed as not being available you can try adding conda forge to your list of channels: ```conda config --append channels conda-forge```
 1. Get some space back: ```conda clean -a```
 
 #### *IMPORTANT*
