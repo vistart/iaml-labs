@@ -120,7 +120,7 @@ If you are installing conda on your own machine, you will find some instructions
 ### 3. Create an environment for IAML
 1. Update conda: `conda update conda`
 1. Create the environment for the course. Call it py3iaml and install python 3 (*hence the name*):
-```conda create -n py3iaml python=3.7```
+```conda create -n py3iaml python=3.9.2```
 
 You can find more information in the Miscellaneous section below for how to work with conda environments. Briefly, `source activate py3iaml` will activate the new environment and `conda deactivate` will exit it. 
 
